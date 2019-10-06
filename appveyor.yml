@@ -2,7 +2,7 @@ version: ci.0.0-{build}
 
 environment:
   matrix:
-    - APPVEYOR_BUILD_WORKER_IMAGE: Ubuntu 18.04
+    - APPVEYOR_BUILD_WORKER_IMAGE: Ubuntu18.04
       releaseName: GVNE_x86
       
 before_build:
