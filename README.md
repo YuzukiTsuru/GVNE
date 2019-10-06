@@ -37,8 +37,7 @@ Edit `CMakeLists.txt` Into Your Own `PATH/TO/QT/LIBRARY`
 ```CMake
 set(Qt5_DIR ~/SDK/QT/5.9.7/clang_64/lib/cmake/Qt5/)
 ```
-Code In:  
-https://github.com/GloomyGhost-MosquitoSeal/GVNE/blob/0e12899cab63ad7df8d371ec6e2ce14114ca53aa/CMakeLists.txt#L6
+Code In:  [THERE](https://github.com/GloomyGhost-MosquitoSeal/GVNE/blob/0e12899cab63ad7df8d371ec6e2ce14114ca53aa/CMakeLists.txt#L6)
 
 Run the Shell Script in terminal or open it in VisualStudio:  
 ```bash
