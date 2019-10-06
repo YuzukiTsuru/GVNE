@@ -1,6 +1,6 @@
-<div align="center"><img width="80" src="Resources/icon_128.gif" alt="GVNE logo"></div>
+<div align="center"><img width="80" src="Resources/icon_128.png" alt="GVNE logo"></div>
 <h1 align="center"><b>GVNE</b></h1>
-<p align="center">Gal Visual Novel Engine</p>
+<p align="center">(*/ω＼*) Gal Visual Novel Engine ヾ(´･ω･｀)ﾉ</p>
 <div align="center">
 
 
@@ -32,4 +32,4 @@
 
   [![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=for-the-badge)](https://996.icu/#/en_US)
 </div>
-(*/ω＼*) Gal Visual Novel Engine ヾ(´･ω･｀)ﾉ 
+
