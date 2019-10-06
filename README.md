@@ -26,7 +26,7 @@
   [![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=for-the-badge)](https://996.icu/#/en_US)
 </div>
 
-## Depends
+## Dependence
 - [CMake](https://cmake.org/)
 - [Qt5](https://www.qt.io/)
 - [QML](https://doc.qt.io/qt-5/location-maps-qml.html)
