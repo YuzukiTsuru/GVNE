@@ -5,14 +5,10 @@ environment:
     - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
       platform: x86
       releaseName: GVNE_x86
-    - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
-      platform: x64
-      releaseName: GVNE_x64
       
 before_build:
-  - set MGW=C:\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\bin
-  - if "%platform%"=="x86" set QTDIR=C:\Qt\5.13.0\mingw73_64
-  - if "%platform%"=="x64" set QTDIR=C:\Qt\5.13.0\mingw73_32
+  - set MGW=C:\Qt\Tools\mingw730_32\bin
+  - if "%platform%"=="x86" set QTDIR=C:\Qt\5.13.0\mingw73_32
   - set PATH=%PATH%;%QTDIR%\bin;
   - cmake -G "MinGW Makefiles" -DCMAKE_MAKE_PROGRAM:PATH=%QTDIR%\bin\make.exe -DCMAKE_MODULE_PATH=%QTDIR%\lib\cmake\Qt5\ -DCMAKE_C_COMPILER=%MGW%\gcc.exe -DCMAKE_CXX_COMPILER=%MGW%\g++.exe .
 build_script:
