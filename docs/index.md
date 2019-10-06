@@ -3,7 +3,6 @@
     <b><h1>G V N E</h1></b>
 </div>
 <p align="center"><b>(*/ω＼*) Gal Visual Novel Engine ヾ(´･ω･｀)ﾉ</b></p>
-<div align="center">
 
   ![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)
   ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
@@ -24,7 +23,7 @@
   ![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)
 
   [![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=for-the-badge)](https://996.icu/#/en_US)
-</div>
+
 
 ## Dependence
 - [CMake](https://cmake.org/)
