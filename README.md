@@ -28,9 +28,9 @@
 
 ## Building
 
-||Linux|
-|---|---|
-|master|[![Build status](https://ci.appveyor.com/api/projects/status/t7itb8xmr3a5w5c7?svg=true)](https://ci.appveyor.com/project/GloomyGhost-MosquitoCoil/gvne)|
+||Linux|Windows|
+|---|---|---|
+|master|[![Build status](https://ci.appveyor.com/api/projects/status/t7itb8xmr3a5w5c7?svg=true)](https://ci.appveyor.com/project/GloomyGhost-MosquitoCoil/gvne)|[![Build status](https://ci.appveyor.com/api/projects/status/t7itb8xmr3a5w5c7?svg=true)](https://ci.appveyor.com/project/GloomyGhost-MosquitoCoil/gvne)|
 
 ## Dependence
 - [CMake](https://cmake.org/)
