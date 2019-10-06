@@ -1,4 +1,4 @@
-<div align="center"><img width="80" src="Resources/icon_128.png" alt="GVNE logo"></div>
+<div align="center"><img width="80" src="icon.png" alt="GVNE logo"></div>
 <div align="center">
     <b><h1>G V N E</h1></b>
 </div>
