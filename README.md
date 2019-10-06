@@ -3,23 +3,14 @@
 <p align="center">(*/ω＼*) Gal Visual Novel Engine ヾ(´･ω･｀)ﾉ</p>
 <div align="center">
 
-
-  ![forthebadge](https://forthebadge.com/images/badges/built-by-crips.svg)
   ![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)
-  ![forthebadge](https://forthebadge.com/images/badges/built-by-hipsters.svg)
   ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
-  ![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)
-  ![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)
-  ![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)
   
-  ![forthebadge](https://forthebadge.com/images/badges/powered-by-case-western-reserve.svg)
-  ![forthebadge](https://forthebadge.com/images/badges/powered-by-comcast.svg)
   ![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)
   ![forthebadge](https://forthebadge.com/images/badges/powered-by-jeffs-keyboard.svg)
   ![forthebadge](https://forthebadge.com/images/badges/powered-by-netflix.svg)
   ![forthebadge](https://forthebadge.com/images/badges/powered-by-oxygen.svg)
   ![forthebadge](https://forthebadge.com/images/badges/powered-by-water.svg)
-  ![forthebadge](https://forthebadge.com/images/badges/powered-by-watergate.svg)
   ![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)
   
   ![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)
