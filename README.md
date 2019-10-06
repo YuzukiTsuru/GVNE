@@ -1,6 +1,6 @@
 <div align="center"><img width="80" src="Resources/icon_128.png" alt="GVNE logo"></div>
 <h1 align="center"><b>GVNE</b></h1>
-<p align="center">(*/ω＼*) Gal Visual Novel Engine ヾ(´･ω･｀)ﾉ</p>
+<p align="center"><b>(*/ω＼*) Gal Visual Novel Engine ヾ(´･ω･｀)ﾉ</b></p>
 <div align="center">
 
   ![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)
