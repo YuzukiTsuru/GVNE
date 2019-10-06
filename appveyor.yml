@@ -2,14 +2,12 @@ version: ci.0.0-{build}
 
 environment:
   matrix:
-    - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
-      platform: x86
+    - APPVEYOR_BUILD_WORKER_IMAGE: Ubuntu 18.04
       releaseName: GVNE_x86
       
 before_build:
-  - set MGW=C:/Qt/Tools/mingw730_32/bin
-  - if "%platform%"=="x86" set QTDIR=C:/Qt/5.13.0/mingw73_32
-  - set PATH=%PATH%;%QTDIR%\bin;
-  - cmake -G "MinGW Makefiles" -DCMAKE_MAKE_PROGRAM:PATH=%MGW%/make.exe -DCMAKE_MODULE_PATH=%QTDIR%/lib/cmake/Qt5/ -DCMAKE_C_COMPILER=%MGW%/gcc.exe -DCMAKE_CXX_COMPILER=%MGW%/g++.exe .
+  - sudo apt-get update
+  - sudo apt-get install qt5-default qtcreator cmake -y
+  - cmake .
 build_script:
   - make
