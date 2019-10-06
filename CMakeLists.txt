@@ -26,7 +26,7 @@ include_directories(Src/Headers)
 aux_source_directory(Src SOURCES)
 
 # Set Build Target
-if (CMAKE_HOST_WIN)
+if (CMAKE_HOST_WIN32)
     message("Build On Windows.....")
     add_executable(${PROJECT_NAME} ${SOURCES} "QRC/qml.qrc" ${CMAKE_HOME_DIRECTORY}Resources/Application.rc)
 elseif (CMAKE_HOST_APPLE)
@@ -57,7 +57,8 @@ elseif (CMAKE_HOST_APPLE)
     if (EXISTS ${CMAKE_HOME_DIRECTORY}/Config/Info.plist)
         set_target_properties(${PROJECT_NAME} PROPERTIES MACOSX_BUNDLE_INFO_PLIST ${CMAKE_HOME_DIRECTORY}/Config/Info.plist)
     endif ()
-
+elseif (CMAKE_HOST_UNIX)
+    message("Work In Process")
 endif ()
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE $<$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>:QT_QML_DEBUG>)

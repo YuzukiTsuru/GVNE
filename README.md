@@ -1,5 +1,5 @@
 <div align="center"><img width="80" src="Resources/icon_128.png" alt="GVNE logo"></div>
-<h1 align="center"><b>GVNE</b></h1>
+<h1 align="center"><b>G<small>al</small>V<small>isual</small>N<small>ovel</small>E<small>ngine</small></b></h1>
 <p align="center"><b>(*/ω＼*) Gal Visual Novel Engine ヾ(´･ω･｀)ﾉ</b></p>
 <div align="center">
 
