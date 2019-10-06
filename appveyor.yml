@@ -7,7 +7,7 @@ environment:
       releaseName: GVNE_x86
       
 before_build:
-  - set MGW=C:/Qt/Tools/mingw730_32/
+  - set MGW=C:/Qt/Tools/mingw730_32/bin
   - if "%platform%"=="x86" set QTDIR=C:/Qt/5.13.0/mingw73_32
   - set PATH=%PATH%;%QTDIR%\bin;
   - cmake -G "MinGW Makefiles" -DCMAKE_MAKE_PROGRAM:PATH=%QTDIR%/bin/make.exe -DCMAKE_MODULE_PATH=%QTDIR%/lib/cmake/Qt5/ -DCMAKE_C_COMPILER=%MGW%/gcc.exe -DCMAKE_CXX_COMPILER=%MGW%/g++.exe .
