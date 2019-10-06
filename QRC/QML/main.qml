@@ -6,4 +6,9 @@ ApplicationWindow {
     width: 1280
     height: 720
     title: qsTr("Gal Visual Novel Engine")
+
+    Text {
+        text: qsTr("Hello World\nGal Visual Novel Engine")
+        anchors.centerIn: parent
+    }
 }
