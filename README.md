@@ -1,14 +1,14 @@
 <div align="center"><img width="80" src="Resources/icon_128.png" alt="GVNE logo"></div>
 <div align="center">
     <b>
-        <h1>G</h1>
-        <small>al</small>&nbsp;
-        <h1>V</h1>
-        <small>isual</small>&nbsp;
-        <h1>N</h1>
-        <small>ovel</small>&nbsp;
-        <h1>E</h1>
-        <small>ngine</small>&nbsp;
+        <font size="40px">G</font>
+        <font size="20px">al</font>
+        <font size="40px">V</font>
+        <font size="20px">isual</font>
+        <font size="40px">N</font>
+        <font size="20px">ovel</font>
+        <font size="40px">E</font>
+        <font size="20px">ngine</font>
     </b>
 </div>
 <p align="center"><b>(*/ω＼*) Gal Visual Novel Engine ヾ(´･ω･｀)ﾉ</b></p>
