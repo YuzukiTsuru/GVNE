@@ -26,6 +26,12 @@
   [![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=for-the-badge)](https://996.icu/#/en_US)
 </div>
 
+## Building
+
+||Linux|
+|---|---|
+|master|[![Build status](https://ci.appveyor.com/api/projects/status/t7itb8xmr3a5w5c7?svg=true)](https://ci.appveyor.com/project/GloomyGhost-MosquitoCoil/gvne)|
+
 ## Dependence
 - [CMake](https://cmake.org/)
 - [Qt5](https://www.qt.io/)

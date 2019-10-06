@@ -1,0 +1,12 @@
+version: ci.0.0-{build}
+image: Ubuntu1804
+install:
+  - sh: >-
+      apt install cmake -y
+
+build_script:
+  - sh: >-
+      mkdir build
+      cd build
+      cmake ..
+      make GVNE
