@@ -1,3 +1,4 @@
+<link rel="shortcut icon" href="https://raw.githubusercontent.com/GloomyGhost-MosquitoSeal/GVNE/master/Resources/icon.ico" />
 <div align="center"><img width="80" src="icon.png" alt="GVNE logo"></div>
 <div align="center">
     <b><h1>G V N E</h1></b>
