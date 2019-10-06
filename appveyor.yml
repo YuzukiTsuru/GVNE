@@ -1,9 +1,5 @@
 version: ci.0.0-{build}
-
-environment:
-  matrix:
-    - APPVEYOR_BUILD_WORKER_IMAGE: Ubuntu18.04
-      releaseName: GVNE_x86
+image: Ubuntu1804
       
 before_build:
   - sudo apt-get update
