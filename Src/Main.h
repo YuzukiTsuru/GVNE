@@ -12,5 +12,4 @@ namespace ProjectInfo{
     const std::string VERSION  = "0.0.1A";
 };
 
-
 #endif //GVNE_MAIN_H
