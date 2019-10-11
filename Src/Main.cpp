@@ -7,7 +7,8 @@
 
 int main(int argc, char *argv[]) {
 
-    std::cout << "Gal Visual Novel Engine \nVersion: "
+    std::cout << ProjectInfo::ProjectName
+              << "\nVersion: "
               << ProjectInfo::VERSION
               << std::endl;
 
@@ -15,7 +16,7 @@ int main(int argc, char *argv[]) {
     QGuiApplication app(argc, argv);
     QQmlApplicationEngine engine;
 
-    engine.rootContext()->setContextProperty("ApplicationInfo", new ApplicationInfo);
+    qmlRegisterType<ApplicationInfo>("com.GVNE.ApplicationInfo", 1, 0, "ApplicationInfo");
 
     engine.load(QUrl(QStringLiteral("qrc:QML/main.qml")));
 
