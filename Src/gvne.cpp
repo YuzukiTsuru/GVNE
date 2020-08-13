@@ -31,7 +31,7 @@ int main() {
     // --------------------
     GLFWwindow *window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, gvneAppInfo.AppName.c_str(), nullptr, nullptr);
     if (window == nullptr) {
-        std::cerr << "Failed to create GLFW window" << std::endl;
+        IC("Failed to create GLFW window");
         glfwTerminate();
         return -1;
     }
@@ -42,7 +42,7 @@ int main() {
     // glad: load all OpenGL function pointers
     // ---------------------------------------
     if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress)) {
-        std::cerr << "Failed to initialize GLAD" << std::endl;
+        IC("Failed to initialize GLAD");
         return -1;
     }
 
@@ -70,8 +70,8 @@ int main() {
 // process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
 // ---------------------------------------------------------------------------------------------------------
 void GVNE_APP::processInput(GLFWwindow *window) {
-    IC();
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
+        IC("GL KEY ESCAPE");
         glfwSetWindowShouldClose(window, true);
     }
 }
