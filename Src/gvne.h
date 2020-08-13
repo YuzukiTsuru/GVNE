@@ -12,5 +12,10 @@ public:
     std::string AppName = "GVNE - Gal (Visual Novel) Game Engine";
 };
 
+class GVNE_APP {
+public:
+    static void framebuffer_size_callback(GLFWwindow *window, int width, int height);
+    static void processInput(GLFWwindow *window);
+};
 
 #endif //GVNE_GVNE_H
